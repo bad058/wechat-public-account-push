@@ -32,7 +32,7 @@ export const USER_CONFIG = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords:true,
+    earthyLoveWords:false,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -79,7 +79,7 @@ export const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "笨笨巧", "year": "2000", "date": "12-03"},
-        {"type": "节日", "name": "表白时间", "year": "2021", "date": "11-25"},
+        {"type": "生日", "name": "聪明仔", "year": "2021", "date": "03-03"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
